@@ -1,0 +1,67 @@
+﻿.navbar-fixed-top {
+	.navbar-brand {
+		font-family: $syncopate;
+		font-size: 20px;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+
+	.nav {
+		padding: 15px 0;
+	}
+}
+
+.navbar-inverse {
+	background-color: #FFF;
+	border-color: #EFEFEF;
+
+	.navbar-brand {
+		color: $accent-color;
+
+		&:focus {
+			color: $accent-color;
+		}
+
+		&:hover {
+			color: $accent-color;
+		}
+	}
+
+	.navbar-toggle {
+		border: none;
+		background-color: $accent-color;
+
+		&:focus {
+			background-color: darken($accent-color, 10%);
+		}
+
+		&:hover {
+			background-color: darken($accent-color, 10%);
+		}
+	}
+
+	.navbar-nav {
+		& > li {
+			& > a {
+				color: #444;
+				font-size: 16px;
+
+				&:hover {
+					color: $accent-color;
+				}
+
+				&:focus {
+					color: $accent-color;
+				}
+			}
+		}
+	}
+}
+
+@media(min-width:768px) {
+	.navbar-fixed-top {
+		.navbar-brand {
+			line-height: 50px;
+		}
+	}
+}

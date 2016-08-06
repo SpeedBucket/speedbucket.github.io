@@ -1,0 +1,18 @@
+﻿body {
+	padding-top: 70px;
+	color: #444;
+	font-family: $opensans;
+	font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #222;
+	font-family: $montserrat;
+	font-weight: 400;
+}
+
+@media(min-width:768px) {
+	body {
+		padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+	}
+}
