@@ -1,0 +1,43 @@
+﻿.header {
+	border-bottom: 1px solid #E5E5E5;
+
+	&__nav-toggle {
+		display: block;
+		float: left;
+		height: 65px;
+		margin: 0.25rem 2rem 0.25rem 1rem;
+		color: #000066;
+		font-size: 2rem;
+		line-height: 65px;
+		text-align: center;
+		text-decoration: none;
+	}
+
+	&__logo {
+		display: block;
+		float: left;
+		margin: 0.25rem 0;
+
+		&-image {
+			display: block;
+			max-width: 100%;
+			max-height: 100%;
+		}
+	}
+}
+
+@media (min-width: $breakpoint-lg) {
+	.header {
+
+		&__nav-toggle {
+			display: none;
+		}
+
+		&__logo {
+
+			&-image {
+
+			}
+		}
+	}
+}

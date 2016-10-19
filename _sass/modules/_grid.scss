@@ -1,0 +1,32 @@
+﻿.row {
+	display: block;
+	@include clearfix;
+
+	.column {
+		display: block;
+	}
+}
+
+@media (min-width: 1000px) {
+	.row {
+
+		.column {
+
+			&--half {
+				@include span(6 of 12);
+
+				&:last-child {
+					@include span(6 of 12 last);
+				}
+			}
+
+			&--third {
+				@include span(4 of 12);
+
+				&:last-child {
+					@include span(4 of 12 last);
+				}
+			}
+		}
+	}
+}
