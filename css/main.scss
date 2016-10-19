@@ -1,0 +1,16 @@
+﻿---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "vendors";
+
+@import "vars";
+@import "defaults";
+
+@import "body";
+@import "header";
+@import "nav";
+@import "main";
+@import "footer";
+
+@import "grid";

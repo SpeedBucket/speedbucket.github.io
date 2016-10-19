@@ -1,4 +1,8 @@
-﻿@import "vendors/vendors";
-@import "base/base";
-@import "layout/layout";
-@import "modules/modules";
+﻿.main {
+}
+
+@media (min-width: $breakpoint-lg) {
+	.main {
+		margin-left: 16rem;
+	}
+}
