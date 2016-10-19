@@ -1,8 +1,6 @@
-﻿.main {
-}
+@charset "utf-8";
 
-@media (min-width: $breakpoint-lg) {
-	.main {
-		margin-left: 16rem;
-	}
-}
+@import "vendors/vendors";
+@import "base/base";
+@import "layout/layout";
+@import "modules/modules";

@@ -1,0 +1,26 @@
+﻿*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 4.5rem 0 0;
+	background-color: #FFF;
+	color: #444;
+	font-family: 'Open Sans', sans-serif;
+	transition: left ease-in-out 0.3s;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #222;
+}
+
+.container {
+	margin: 0 2rem;
+	@include clearfix;
+}
+
+@media (min-width: $breakpoint-lg) {
+	.container {
+	}
+}

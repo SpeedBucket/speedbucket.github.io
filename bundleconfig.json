@@ -1,0 +1,14 @@
+[
+	{
+		"outputFileName": "js/main.min.js",
+		"inputFiles": [
+			"js/main.js"
+		]
+	},
+	{
+		"outputFileName": "js/lib.js",
+		"inputFiles": [
+			"/node_modules/jquery/dist/jquery.js"
+		]
+	}
+]

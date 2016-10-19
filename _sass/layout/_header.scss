@@ -1,0 +1,50 @@
+﻿.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #FFF;
+	@include clearfix;
+
+	&__nav-toggle {
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		height: 65px;
+		margin: 0.25rem 2rem 0.25rem 1rem;
+		color: #000066;
+		font-size: 2rem;
+		line-height: 4rem;
+		text-align: center;
+		text-decoration: none;
+	}
+
+	&__logo {
+		display: block;
+		float: left;
+		height: 4rem;
+		margin: 0.25rem 0;
+
+		&-image {
+			display: block;
+			max-width: 100%;
+			max-height: 100%;
+		}
+	}
+}
+
+@media (min-width: $breakpoint-lg) {
+	.header {
+
+		&__nav-toggle {
+		}
+
+		&__logo {
+
+			&-image {
+
+			}
+		}
+	}
+}
