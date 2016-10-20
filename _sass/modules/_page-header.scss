@@ -1,0 +1,53 @@
+﻿.page-header {
+	background-color: #000066;
+
+	&__title {
+		max-width: 75rem;
+		margin: 0 auto;
+		padding: 1rem 0.25rem;
+		color: #FFF;
+		font-family: $open-sans-condensed;
+		font-size: 1.8rem;
+		font-weight: 300;
+	}
+}
+
+@media (min-width: $breakpoint-sm) {
+	.page-header {
+
+		&__title {
+			padding: 1rem 0.5rem;
+			font-size: 2rem;
+		}
+	}
+}
+
+@media (min-width: $breakpoint-md) {
+	.page-header {
+
+		&__title {
+			padding: 1rem 1rem;
+			font-size: 2.2rem;
+		}
+	}
+}
+
+@media (min-width: $breakpoint-lg) {
+	.page-header {
+
+		&__title {
+			padding: 1rem 1.5rem;
+			font-size: 2.4rem;
+		}
+	}
+}
+
+@media (min-width: $breakpoint-xl) {
+	.page-header {
+
+		&__title {
+			padding: 1rem 2rem;
+			font-size: 2.6rem;
+		}
+	}
+}

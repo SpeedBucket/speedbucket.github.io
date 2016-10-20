@@ -1,7 +1,6 @@
 ﻿.banner {
 	position: relative;
 	min-height: 300px;
-	margin: 0 -0.25rem;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -21,30 +20,25 @@
 	}
 
 	&__content {
-		margin: 0 2rem;
 	}
 }
 
 @media (min-width: $breakpoint-sm) {
 	.banner {
-		margin: 0 -0.5rem;
 	}
 }
 
 @media (min-width: $breakpoint-md) {
 	.banner {
-		margin: 0 -1rem;
 	}
 }
 
 @media (min-width: $breakpoint-lg) {
 	.banner {
-		margin: 0 -1.5rem;
 	}
 }
 
 @media (min-width: $breakpoint-xl) {
 	.banner {
-		margin: 0 -2rem;
 	}
 }
