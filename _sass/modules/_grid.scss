@@ -1,9 +1,7 @@
 ﻿.row {
-	display: block;
-	@include clearfix;
+	@include container;
 
 	.column {
-		display: block;
 	}
 }
 
@@ -13,19 +11,15 @@
 		.column {
 
 			&--half {
-				@include span(6 of 12);
-
-				&:last-child {
-					@include span(6 of 12 last);
-				}
+				@include span(6);
 			}
 
 			&--third {
-				@include span(4 of 12);
+				@include span(4);
+			}
 
-				&:last-child {
-					@include span(4 of 12 last);
-				}
+			&:last-child {
+				margin-right: 0;
 			}
 		}
 	}
