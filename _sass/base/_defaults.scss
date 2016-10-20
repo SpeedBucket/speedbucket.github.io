@@ -16,11 +16,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .container {
-	margin: 0 2rem;
+	margin: 0 0.25rem;
 	@include clearfix;
 }
 
+@media (min-width: $breakpoint-sm) {
+	.container {
+		margin: 0 0.5rem;
+	}
+}
+
+@media (min-width: $breakpoint-md) {
+	.container {
+		margin: 0 1rem;
+	}
+}
 @media (min-width: $breakpoint-lg) {
 	.container {
+		margin: 0 1.5rem;
+	}
+}
+@media (min-width: $breakpoint-xl) {
+	.container {
+		margin: 0 2rem;
 	}
 }
