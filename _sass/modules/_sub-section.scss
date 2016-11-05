@@ -1,0 +1,16 @@
+﻿.sub-section {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+
+	&__header {
+		font-family: $montserrat;
+		font-size: 1rem;
+		font-weight: 700;
+		line-height: 2;
+	}
+
+	&__content {
+		font-size: 0.9rem;
+		line-height: 1.5;
+	}
+}

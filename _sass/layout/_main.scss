@@ -1,7 +1,37 @@
 ﻿.main {
+
+	.container {
+	}
+}
+
+@media (min-width: $breakpoint-sm) {
+	.main {
+
+		.container {
+		}
+	}
+}
+
+@media (min-width: $breakpoint-md) {
+	.main {
+
+		.container {
+		}
+	}
 }
 
 @media (min-width: $breakpoint-lg) {
 	.main {
+
+		.container {
+		}
+	}
+}
+
+@media (min-width: $breakpoint-xl) {
+	.main {
+
+		.container {
+		}
 	}
 }

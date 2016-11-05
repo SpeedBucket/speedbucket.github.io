@@ -1,9 +1,10 @@
 ﻿.banner {
 	position: relative;
-	min-height: 300px;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	color: #FFF;
+	text-align: center;
 
 	&--filter {
 
@@ -16,29 +17,118 @@
 			left: 0;
 			background-color: rgba(64, 64, 64, 0.5);
 			content: '';
+			z-index: 1;
+		}
+
+		.container {
+			position: relative;
+			z-index: 2;
+		}
+
+		.banner__title {
+			color: #FFF;
 		}
 	}
 
-	&__content {
+	.container {
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+	}
+
+	&__title {
+		font-family: $montserrat;
+		font-size: 2.2rem;
+		font-weight: 700;
+	}
+
+	&__subtitle {
+		font-family: $montserrat;
+		font-size: 1.1rem;
+		font-weight: 400;
+	}
+
+	&__button {
+		display: inline-block;
+		margin: 1rem 0 0;
+		padding: 1rem 2rem;
+		border-radius: 0.4rem;
+		font-family: $open-sans-condensed;
+		font-size: 1.1rem;
+		font-weight: 300;
+		text-transform: capitalize;
+		@extend .bg--red;
+
+		&:hover {
+			text-decoration: none;
+		}
 	}
 }
 
 @media (min-width: $breakpoint-sm) {
 	.banner {
+
+		&__title {
+			font-size: 2.4rem;
+		}
+
+		&__subtitle {
+			font-size: 1.2rem;
+		}
+
+		&__button {
+			font-size: 1.2rem;
+		}
 	}
 }
 
 @media (min-width: $breakpoint-md) {
 	.banner {
+		text-align: left;
+
+		&__title {
+			font-size: 2.6rem;
+		}
+
+		&__subtitle {
+			font-size: 1.3rem;
+		}
+
+		&__button {
+			font-size: 1.3rem;
+		}
 	}
 }
 
 @media (min-width: $breakpoint-lg) {
 	.banner {
+
+		&__title {
+			font-size: 2.8rem;
+		}
+
+		&__subtitle {
+			font-size: 1.4rem;
+		}
+
+		&__button {
+			font-size: 1.4rem;
+		}
 	}
 }
 
 @media (min-width: $breakpoint-xl) {
 	.banner {
+
+		&__title {
+			font-size: 3rem;
+		}
+
+		&__subtitle {
+			font-size: 1.5rem;
+		}
+
+		&__button {
+			font-size: 1.5rem;
+		}
 	}
 }

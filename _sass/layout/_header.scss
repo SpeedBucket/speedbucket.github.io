@@ -3,15 +3,22 @@
 	top: 0;
 	left: 0;
 	right: 0;
+	border-bottom: 1px solid #E5E5E5;
 	background-color: #FFF;
+	z-index: 1000;
 	@include clearfix;
+
+	.container {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
 
 	&__nav-toggle {
 		display: block;
 		float: right;
 		height: 4rem;
 		margin: 0.25rem 0;
-		color: #000066;
+		color: #1B5299;
 		font-size: 2rem;
 		line-height: 4rem;
 		text-align: center;

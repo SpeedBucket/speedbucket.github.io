@@ -1,0 +1,123 @@
+﻿.bg--blue {
+	background-color: #1B5299;
+	color: #FFF !important;
+
+	a {
+		color: #FFF;
+
+		&:hover {
+			color: #FFF;
+		}
+	}
+}
+
+.bg--gray {
+	background-color: #666666;
+	color: #FFF !important;
+
+	a {
+		color: #FFF;
+
+		&:hover {
+			color: #FFF;
+		}
+	}
+
+	.title {
+		color: #FFF;
+	}
+}
+
+.bg--light-gray {
+	background-color: #F7FAFA;
+	color: #444 !important;
+
+	a {
+		color: #444;
+
+		&:hover {
+			color: #444;
+		}
+	}
+}
+
+.bg--light-purple {
+	background-color: #694D75;
+	color: #FFF !important;
+
+	a {
+		color: #FFF;
+
+		&:hover {
+			color: #FFF;
+		}
+	}
+}
+
+.bg--purple {
+	background-color: #331832;
+	color: #FFF !important;
+
+	a {
+		color: #FFF;
+
+		&:hover {
+			color: #FFF;
+		}
+	}
+}
+
+.bg--red {
+	background-color: #87090D;
+	color: #FFF !important;
+
+	a {
+		color: #FFF;
+
+		&:hover {
+			color: #FFF;
+		}
+	}
+}
+
+.float {
+
+	&--right {
+		float: right;
+		margin: 0 0 1rem 1rem;
+	}
+
+	&--left {
+		float: left;
+		margin: 0 1rem 1rem 0;
+	}
+}
+
+.lead {
+	font-size: 1.1rem;
+	font-weight: 700;
+}
+
+.text--center {
+	text-align: center;
+}
+
+.text--right {
+	text-align: right;
+}
+
+.title {
+	margin: 0 0 1rem;
+	color: #222;
+	font-family: $montserrat;
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.with-top-border {
+	border-top: 1px solid #E5E5E5;
+}
+
+.with-bottom-border {
+	border-bottom: 1px solid #E5E5E5;
+}
