@@ -527,7 +527,7 @@ p.lead {
 }
 
 .card.pricing {
-    width: 33%;
+    max-width: 19rem;
     border: none;
 }
 
